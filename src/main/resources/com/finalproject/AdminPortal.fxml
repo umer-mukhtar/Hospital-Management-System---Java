@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.finalproject.AdminPortalController">
+   <children>
+      <Button layoutX="264.0" layoutY="262.0" mnemonicParsing="false" onAction="#submitE" text="Submit" />
+      <Label layoutX="246.0" layoutY="65.0" text="Add New Doctor" />
+      <Label layoutX="126.0" layoutY="134.0" text="Name" />
+      <Label layoutX="102.0" layoutY="182.0" text="Department" />
+      <TextField fx:id="name" layoutX="190.0" layoutY="130.0" />
+      <TextField fx:id="dept" layoutX="190.0" layoutY="178.0" />
+      <TextField fx:id="password" layoutX="190.0" layoutY="227.0" />
+      <Label layoutX="101.0" layoutY="231.0" text="Password" />
+   </children>
+</AnchorPane>

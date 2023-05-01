@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.finalproject.AssignDoctorPortalController">
+   <children>
+      <Label fx:id="label" layoutX="117.0" layoutY="87.0" />
+      <TextField fx:id="docid" layoutX="213.0" layoutY="458.0" />
+      <Label layoutX="144.0" layoutY="462.0" text="Doctor ID" />
+      <Button layoutX="392.0" layoutY="502.0" mnemonicParsing="false" onAction="#submitE" text="Submit" />
+      <TextField fx:id="patid" layoutX="213.0" layoutY="502.0" />
+      <Label layoutX="144.0" layoutY="506.0" text="Patient ID" />
+   </children>
+</AnchorPane>

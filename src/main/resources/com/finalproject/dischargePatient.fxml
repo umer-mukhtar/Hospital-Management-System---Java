@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.finalproject.DischargePatientController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Button fx:id="submit" layoutX="321.0" layoutY="70.0" mnemonicParsing="false" text="Submit" onAction="#submitE" />
+        <Button layoutX="146.0" layoutY="341.0" mnemonicParsing="false" text="Discharge" onAction="#dischargeE"/>
+        <Label layoutX="112.0" layoutY="74.0" text="Patient ID" />
+        <TextField fx:id="id" layoutX="174.0" layoutY="70.0" />
+        <Label layoutX="72.0" layoutY="240.0" text="CC:" />
+        <TextField fx:id="cc" layoutX="163.0" layoutY="236.0" />
+        <Label fx:id="label" layoutX="124.0" layoutY="151.0" />
+    </children>
+</AnchorPane>

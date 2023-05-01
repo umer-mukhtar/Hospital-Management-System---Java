@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.finalproject.AdmitPatientController">
+   <children>
+      <Button layoutX="273.0" layoutY="301.0" mnemonicParsing="false" text="Submit" onAction="#submitE" />
+      <Label layoutX="201.0" layoutY="240.0" text="Patient ID" />
+      <Label layoutX="201.0" layoutY="272.0" text="Bed Number" />
+      <TextField fx:id="id" layoutX="284.0" layoutY="236.0" />
+      <TextField fx:id="bednumber" layoutX="285.0" layoutY="268.0" />
+      <Label fx:id="label" layoutX="83.0" layoutY="46.0" />
+   </children>
+</AnchorPane>
